@@ -1,0 +1,12 @@
+# MATLAB
+*.asv
+*.fig
+*.mat
+
+# Images (optional)
+*.png
+*.jpg
+
+# System
+.DS_Store
+Thumbs.db
