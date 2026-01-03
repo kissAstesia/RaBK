@@ -34,7 +34,7 @@ function [x,iter] = RaBK(A,b,x_0,max_epoch,tol,t)
     
     
         
-            alpha_k = 2*t/max_lamda_of_block;                        %%%在这里改变步长
+            alpha_k = t/max_lamda_of_block;                        %%%在这里改变步长
     
                 
         
