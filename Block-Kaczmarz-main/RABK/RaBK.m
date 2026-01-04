@@ -31,10 +31,12 @@ function [x,iter] = RaBK(A,b,x_0,max_epoch,tol,t)
         
             
             sum = submatrix_handle(A_J,b_J,x_0);
+
+            alpha_k = adaptive_stepsize(A_J,b_J,x_0);     %自适应步长
     
     
         
-            alpha_k = t/max_lamda_of_block;                        %%%在这里改变步长
+            %alpha_k = t/max_lamda_of_block;                %常数步长
     
                 
         
